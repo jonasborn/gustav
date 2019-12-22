@@ -1,0 +1,1 @@
+{"mode":"STOPPED","project":"3e7b54aa-2bd0-4f37-ba7b-94114a7dabea","session":"1eb66527-e5ef-48eb-8de2-14184c1e10bf","command":["/home/jonas/.local/bin/ludwig","predict","--help"],"defaultLog":"_meta/1eb66527-e5ef-48eb-8de2-14184c1e10bf/defaultLog.txt","errorLog":"_meta/1eb66527-e5ef-48eb-8de2-14184c1e10bf/defaultLog.txt","thread":"Thread-11","pid":9974,"code":0}

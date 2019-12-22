@@ -1,0 +1,34 @@
+Aufruf: echo [KURZOPTION]... [ZEICHENKETTE]...
+ oder:  echo LANGOPTION
+Die ZEICHENKETTEn auf die Standardausgabe ausgeben.
+
+  -n             den abschließenden Zeilenvorschub unterdrücken
+  -e             Interpretation von Rückschrägstrich‐Sequenzen anschalten
+  -E             Interpretation von Rückschrägstrich‐Sequenzen unterdrücken (Voreinst.)
+      --help     diese Hilfe anzeigen und beenden
+      --version  Versionsinformation anzeigen und beenden
+
+wenn -e verwendet wurde, werden die folgenden Zeichenfolgen erkannt:
+
+  \\      Backslash
+  \a     Glocke (BEL)
+  \b     Rückschritt
+  \c     keine weitere Ausgabe produzieren
+  \e     Escape
+  \f     Seitenvorschub
+  \n     Zeilenvorschub
+  \r     Wagenrücklauf (Carriage Return)
+  \t     horizontaler Tabulatorstopp
+  \v     vertikaler Tabulatorstopp
+  \0NNN   Byte mit oktalem Wert NNN (1 bis 3 Stellen)
+  \xHH    Byte mit hexadezimalem Wert HH (1 bis 2 Stellen)
+
+BEMERKUNG: Ihre Shell hat möglicherweise eine eigene Version von echo,
+welche normalerweise die hier beschriebene Version ersetzt. Bitte greifen Sie
+auf die Dokumentation der Shell zurück, um die dort unterstützten Optionen
+in Erfahrung zu bringen.
+
+GNU coreutils Onlinehilfe: <http://www.gnu.org/software/coreutils/>
+Melden Sie Übersetzungsfehler für echo an <translation-team-de@lists.sourceforge.net>
+Die vollständige Dokumentation ist hier: <http://www.gnu.org/software/coreutils/echo>
+oder auch lokal mittels „info '(coreutils) echo invocation'“
