@@ -1,3 +1,6 @@
+# Important
+This project is not currently maintained and requires an adoption of the cli of ludwig to some POJO classes. There is a automated generator included. The whole project is untested!
+
 # About
 Gustav is a JVM (Groovy) based REST-Wrapper for uber/ludwig
 
